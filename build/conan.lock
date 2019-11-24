@@ -1,0 +1,79 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0389d4e5-0edc-11ea-a855-f8597194cdd3": {
+    "pref": "freetype/2.9.1@bincrafters/stable#0:2eda287fd36b7b010dea069857045000246077e3#0", 
+    "requires": {
+     "bzip2/1.0.6@conan/stable#0": "0389fbf0-0edc-11ea-b636-f8597194cdd3", 
+     "libpng/1.6.37@bincrafters/stable#0": "0389d4e3-0edc-11ea-b591-f8597194cdd3", 
+     "zlib/1.2.11@conan/stable#0": "0389d4e2-0edc-11ea-ac9f-f8597194cdd3"
+    }, 
+    "options": "shared=False\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbzip2:build_executable=True\nbzip2:shared=False\nlibpng:api_prefix=None\nlibpng:shared=False\nzlib:minizip=False\nzlib:shared=False"
+   }, 
+   "0389d4e7-0edc-11ea-85d4-f8597194cdd3": {
+    "pref": "stb/20180214@conan/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0", 
+    "options": ""
+   }, 
+   "0389d4e6-0edc-11ea-a623-f8597194cdd3": {
+    "path": "C:\\Users\\Jul\\source\\repos\\r-type\\conanfile.txt", 
+    "pref": null, 
+    "requires": {
+     "freetype/2.9.1@bincrafters/stable#0": "0389d4e5-0edc-11ea-a855-f8597194cdd3", 
+     "sfml/2.5.1@bincrafters/stable#0": "0389d4e4-0edc-11ea-8ae4-f8597194cdd3"
+    }, 
+    "options": "bzip2:build_executable=True\nbzip2:shared=False\nflac:shared=False\nflac:use_asm=False\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:api_prefix=None\nlibpng:shared=False\nogg:shared=False\nopenal:shared=False\nsfml:audio=True\nsfml:graphics=True\nsfml:network=True\nsfml:shared=True\nsfml:window=True\nvorbis:shared=False\nzlib:minizip=False\nzlib:shared=False"
+   }, 
+   "0389d4e1-0edc-11ea-ad7e-f8597194cdd3": {
+    "pref": "flac/1.3.2@bincrafters/stable#0:becff00909fb3d957c6b4ca60fa64d4e6a32a540#0", 
+    "requires": {
+     "ogg/1.3.3@bincrafters/stable#0": "0389adcf-0edc-11ea-9d95-f8597194cdd3"
+    }, 
+    "options": "shared=False\nuse_asm=False\nogg:shared=False"
+   }, 
+   "0389d4e8-0edc-11ea-b7ed-f8597194cdd3": {
+    "pref": "openal/1.19.0@bincrafters/stable#0:3fb49604f9c2f729b85ba3115852006824e72cab#55d622e81191eea0df2a9e40afaa0f58", 
+    "options": "shared=False"
+   }, 
+   "0389d4e3-0edc-11ea-b591-f8597194cdd3": {
+    "pref": "libpng/1.6.37@bincrafters/stable#0:d140711d95cc16a85766a8fc3a551dfafe84cf63#0", 
+    "requires": {
+     "zlib/1.2.11@conan/stable#0": "0389d4e2-0edc-11ea-ac9f-f8597194cdd3"
+    }, 
+    "options": "api_prefix=None\nshared=False\nzlib:minizip=False\nzlib:shared=False"
+   }, 
+   "0389d4e4-0edc-11ea-8ae4-f8597194cdd3": {
+    "pref": "sfml/2.5.1@bincrafters/stable#0:511151e8552767dc33bc7967b0fe4abc194cfd65#a4e56715ba97820b802cceabd418a766", 
+    "requires": {
+     "ogg/1.3.3@bincrafters/stable#0": "0389adcf-0edc-11ea-9d95-f8597194cdd3", 
+     "flac/1.3.2@bincrafters/stable#0": "0389d4e1-0edc-11ea-ad7e-f8597194cdd3", 
+     "openal/1.19.0@bincrafters/stable#0": "0389d4e8-0edc-11ea-b7ed-f8597194cdd3", 
+     "freetype/2.9.1@bincrafters/stable#0": "0389d4e5-0edc-11ea-a855-f8597194cdd3", 
+     "stb/20180214@conan/stable#0": "0389d4e7-0edc-11ea-85d4-f8597194cdd3", 
+     "vorbis/1.3.6@bincrafters/stable#0": "0389add0-0edc-11ea-b1ad-f8597194cdd3"
+    }, 
+    "options": "audio=True\ngraphics=True\nnetwork=True\nshared=True\nwindow=True\nbzip2:build_executable=True\nbzip2:shared=False\nflac:shared=False\nflac:use_asm=False\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:api_prefix=None\nlibpng:shared=False\nogg:shared=False\nopenal:shared=False\nvorbis:shared=False\nzlib:minizip=False\nzlib:shared=False"
+   }, 
+   "0389d4e2-0edc-11ea-ac9f-f8597194cdd3": {
+    "pref": "zlib/1.2.11@conan/stable#0:3fb49604f9c2f729b85ba3115852006824e72cab#0", 
+    "options": "minizip=False\nshared=False"
+   }, 
+   "0389adcf-0edc-11ea-9d95-f8597194cdd3": {
+    "pref": "ogg/1.3.3@bincrafters/stable#0:3fb49604f9c2f729b85ba3115852006824e72cab#0", 
+    "options": "shared=False"
+   }, 
+   "0389add0-0edc-11ea-b1ad-f8597194cdd3": {
+    "pref": "vorbis/1.3.6@bincrafters/stable#0:becff00909fb3d957c6b4ca60fa64d4e6a32a540#0", 
+    "requires": {
+     "ogg/1.3.3@bincrafters/stable#0": "0389adcf-0edc-11ea-9d95-f8597194cdd3"
+    }, 
+    "options": "shared=False\nogg:shared=False"
+   }, 
+   "0389fbf0-0edc-11ea-b636-f8597194cdd3": {
+    "pref": "bzip2/1.0.6@conan/stable#0:d16a91eadaaf5829b928b12d2f836ff7680d3df5#0", 
+    "options": "build_executable=True\nshared=False"
+   }
+  }
+ }, 
+ "version": "0.1", 
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}
